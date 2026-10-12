@@ -35,7 +35,7 @@ Put the `PATH` export in `~/.bashrc` if necessary. If `rbw` behaves oddly after 
 ```bash
 git clone https://github.com/unilsson/vaultwarden-cli.git
 cd vaultwarden-cli
-./install.sh
+bash install.sh
 ```
 
 The installer copies `vw` to `~/.local/bin/vw`, preserves any existing installation as `vw.bak`, and checks required commands. Ensure `~/.local/bin` is in your `PATH`:
@@ -96,13 +96,13 @@ Fuzzy search matches name, username, folder and URL in either UI. Folder filteri
 ```bash
 cd vaultwarden-cli
 git pull --ff-only
-./install.sh
+bash install.sh
 ```
 
 To remove only the installed command:
 
 ```bash
-./uninstall.sh
+bash uninstall.sh
 ```
 
 ## Development
