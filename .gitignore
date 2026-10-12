@@ -1,0 +1,24 @@
+# Local vault exports, secrets and user configuration
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*.vault
+*.vault.json
+*export*.json
+rbw-config/
+vaultwarden-data/
+
+# Editor, shell and OS noise
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Local backups and temporary files
+*.bak
+*.tmp
+*.log
